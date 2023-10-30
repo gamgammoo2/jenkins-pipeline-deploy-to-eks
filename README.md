@@ -48,4 +48,4 @@ terraform 폴더 안에서 파일들 보면서 수정할 것 수정하고(region
 이후 github 들어가서 방금 푸쉬한 레포의 파일로 들어가서 주소를 복사한다. "https://github.com/gamgammoo2/terraform/tree/main/jenkins-pipeline-deploy-to-eks" 나는 위와 같음
 젠킨스 페이지로 들어가서 dashboard에서 뉴 아이템에 들어가고 field 이름 채워주고 pipeline 눌러주고 ok.
 
-SCM(source control manager)로 definition을 바꿈. SCM에서 git으로 바꾸고, url은 방금 복사한 경로를 붙여넣는다. credential은 아까전에 만들었던 git용 으로 선택한다. -> 이랬는데 자꾸 url에서 에러가 나서 그냥 깃리포 새로 만들고 클론하고 거기에 커밋하려한다.
+SCM(source control manager)로 definition을 바꿈. SCM에서 git으로 바꾸고, url은 방금 복사한 경로를 붙여넣는다. credential은 아까전에 만들었던 git용 으로 선택한다. -> 이랬는데 자꾸 url에서 에러가 나서 그냥 깃리포 새로 만들고 클론하고 거기에 커밋하려한다.(그것도 내 본계정으로만 되게끔 에러가 나서...결국 gamgammoo2로 했다.) 그리고 ok 누르면 우리는 pipeline을 생성한거다. ㅁㅊ 안됨ㅜㅜ하... https://blog.naver.com/rudnfskf2/221400958621 이 블로그 보면서 따라했는데 안되네... 울고싶다 흑흑
